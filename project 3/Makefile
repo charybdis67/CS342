@@ -1,4 +1,5 @@
 all: libsbmemlib.a  app create_memory_sb destroy_memory_sb
+	./app
 
 libsbmemlib.a:  sbmemlib.c
 	gcc -Wall -c sbmemlib.c

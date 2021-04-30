@@ -2,11 +2,12 @@
 
 #include <unistd.h>
 #include <stdlib.h>
-
+#include<stdio.h>
 #include "sbmem.h"
 
 int main()
 {
+	   /*
     int i, ret; 
     char *p;  	
 
@@ -20,6 +21,10 @@ int main()
     sbmem_free (p);
 
     sbmem_close(); 
-    
+ 
+    return (0); 
+    */
+    printf("abc\n");
+    sbmem_init(4096); 
     return (0); 
 }
